@@ -1,0 +1,25 @@
+.container{
+    width: 60%;
+    margin: auto;
+    background-color: rgba(245, 174, 191, 0.692);
+    box-shadow: 10px 10px 10px 10px rgb(189, 188, 188);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 50vh; */
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: rgb(3, 87, 3);
+    border: none;
+    color: rgb(4, 63, 141);
+    font-weight: bold;
+}
